@@ -29,9 +29,9 @@ export const prioriryFilterChange = (prioriry) => {
 };
 // Todo
 
-export const checkedTodo = (check, id) => {
+export const checkedTodo = (id) => {
   return {
     type: "todoList/checkedTodo",
-    payload: { check, id },
+    payload: id,
   };
 };
